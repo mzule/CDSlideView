@@ -12,13 +12,16 @@
 		BAA4193118CDBC0200EE5C9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA4193018CDBC0200EE5C9E /* UIKit.framework */; };
 		BAA4193718CDBC0200EE5C9E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAA4193518CDBC0200EE5C9E /* InfoPlist.strings */; };
 		BAA4193918CDBC0200EE5C9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA4193818CDBC0200EE5C9E /* main.m */; };
-		BAA4193D18CDBC0200EE5C9E /* CDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA4193C18CDBC0200EE5C9E /* CDAppDelegate.m */; };
 		BAA4193F18CDBC0200EE5C9E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAA4193E18CDBC0200EE5C9E /* Images.xcassets */; };
 		BAA4194618CDBC0200EE5C9E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA4194518CDBC0200EE5C9E /* XCTest.framework */; };
 		BAA4194718CDBC0200EE5C9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA4192C18CDBC0200EE5C9E /* Foundation.framework */; };
 		BAA4194818CDBC0200EE5C9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA4193018CDBC0200EE5C9E /* UIKit.framework */; };
 		BAA4195018CDBC0200EE5C9E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAA4194E18CDBC0200EE5C9E /* InfoPlist.strings */; };
 		BAA4195218CDBC0200EE5C9E /* CDSlideViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA4195118CDBC0200EE5C9E /* CDSlideViewTests.m */; };
+		BAA4195D18CDBC5D00EE5C9E /* CDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA4195C18CDBC5D00EE5C9E /* CDAppDelegate.m */; };
+		BAA4196418CDBC6D00EE5C9E /* CDPositionIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA4195F18CDBC6D00EE5C9E /* CDPositionIndicatorView.m */; };
+		BAA4196518CDBC6D00EE5C9E /* CDRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA4196118CDBC6D00EE5C9E /* CDRootViewController.m */; };
+		BAA4196618CDBC6D00EE5C9E /* CDSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA4196318CDBC6D00EE5C9E /* CDSlideView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,14 +43,20 @@
 		BAA4193618CDBC0200EE5C9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BAA4193818CDBC0200EE5C9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BAA4193A18CDBC0200EE5C9E /* CDSlideView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CDSlideView-Prefix.pch"; sourceTree = "<group>"; };
-		BAA4193B18CDBC0200EE5C9E /* CDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDAppDelegate.h; sourceTree = "<group>"; };
-		BAA4193C18CDBC0200EE5C9E /* CDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDAppDelegate.m; sourceTree = "<group>"; };
 		BAA4193E18CDBC0200EE5C9E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BAA4194418CDBC0200EE5C9E /* CDSlideViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CDSlideViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAA4194518CDBC0200EE5C9E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		BAA4194D18CDBC0200EE5C9E /* CDSlideViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CDSlideViewTests-Info.plist"; sourceTree = "<group>"; };
 		BAA4194F18CDBC0200EE5C9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BAA4195118CDBC0200EE5C9E /* CDSlideViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDSlideViewTests.m; sourceTree = "<group>"; };
+		BAA4195B18CDBC5D00EE5C9E /* CDAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDAppDelegate.h; sourceTree = "<group>"; };
+		BAA4195C18CDBC5D00EE5C9E /* CDAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDAppDelegate.m; sourceTree = "<group>"; };
+		BAA4195E18CDBC6D00EE5C9E /* CDPositionIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDPositionIndicatorView.h; sourceTree = "<group>"; };
+		BAA4195F18CDBC6D00EE5C9E /* CDPositionIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDPositionIndicatorView.m; sourceTree = "<group>"; };
+		BAA4196018CDBC6D00EE5C9E /* CDRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDRootViewController.h; sourceTree = "<group>"; };
+		BAA4196118CDBC6D00EE5C9E /* CDRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDRootViewController.m; sourceTree = "<group>"; };
+		BAA4196218CDBC6D00EE5C9E /* CDSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDSlideView.h; sourceTree = "<group>"; };
+		BAA4196318CDBC6D00EE5C9E /* CDSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDSlideView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +116,11 @@
 		BAA4193218CDBC0200EE5C9E /* CDSlideView */ = {
 			isa = PBXGroup;
 			children = (
-				BAA4193B18CDBC0200EE5C9E /* CDAppDelegate.h */,
-				BAA4193C18CDBC0200EE5C9E /* CDAppDelegate.m */,
+				BAA4195B18CDBC5D00EE5C9E /* CDAppDelegate.h */,
+				BAA4195C18CDBC5D00EE5C9E /* CDAppDelegate.m */,
+				BAA4196718CDBC7600EE5C9E /* views */,
+				BAA4196018CDBC6D00EE5C9E /* CDRootViewController.h */,
+				BAA4196118CDBC6D00EE5C9E /* CDRootViewController.m */,
 				BAA4193E18CDBC0200EE5C9E /* Images.xcassets */,
 				BAA4193318CDBC0200EE5C9E /* Supporting Files */,
 			);
@@ -142,6 +154,17 @@
 				BAA4194E18CDBC0200EE5C9E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BAA4196718CDBC7600EE5C9E /* views */ = {
+			isa = PBXGroup;
+			children = (
+				BAA4195E18CDBC6D00EE5C9E /* CDPositionIndicatorView.h */,
+				BAA4195F18CDBC6D00EE5C9E /* CDPositionIndicatorView.m */,
+				BAA4196218CDBC6D00EE5C9E /* CDSlideView.h */,
+				BAA4196318CDBC6D00EE5C9E /* CDSlideView.m */,
+			);
+			name = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,7 +264,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAA4193918CDBC0200EE5C9E /* main.m in Sources */,
-				BAA4193D18CDBC0200EE5C9E /* CDAppDelegate.m in Sources */,
+				BAA4195D18CDBC5D00EE5C9E /* CDAppDelegate.m in Sources */,
+				BAA4196418CDBC6D00EE5C9E /* CDPositionIndicatorView.m in Sources */,
+				BAA4196518CDBC6D00EE5C9E /* CDRootViewController.m in Sources */,
+				BAA4196618CDBC6D00EE5C9E /* CDSlideView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

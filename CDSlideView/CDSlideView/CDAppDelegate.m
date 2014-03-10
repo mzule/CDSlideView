@@ -7,6 +7,7 @@
 //
 
 #import "CDAppDelegate.h"
+#import "CDRootViewController.h"
 
 @implementation CDAppDelegate
 
@@ -14,6 +15,8 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    CDRootViewController *root = [[CDRootViewController alloc]init];
+    self.window.rootViewController = root;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
